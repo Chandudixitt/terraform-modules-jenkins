@@ -1,5 +1,5 @@
 subscription_id          = "8137c2f4-3363-4a3b-93f6-c6acd62fbd52"
-resource_group_name      = "PrimeSquare-ResourceGroup"
+resource_group_name      = "PrimeSquare-ResourceGroup-latest"
 location                 = "Central India"
 vnet_name                = "PrimeSquare-VNet"
 vnet_address_space       = ["10.10.0.0/16"]
