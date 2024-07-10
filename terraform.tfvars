@@ -12,9 +12,9 @@ vm_name                  = "PrimeSquare-VM"
 vm_size                  = "Standard_DS1_v2"
 network_interface_id     = "Primesquare-Network-Interface-ID-IAC"
 admin_username           = "azureuser"
-admin_ssh_key            = "Primesquarevmkey"
+admin_ssh_key            = "tls_private_key.example.public_key_openssh"
 os_disk_name             = "PrimeSquare-Disk-IAC"
-os_disk_size_gb          = 32
+os_disk_size_gb          = "32"
 tags = {
   environment = "development"
   project     = "PrimeSquare-IAC"
@@ -58,5 +58,3 @@ outbound_rules = [
     destination_address_prefix = "*"
   }
 ]
-
-
