@@ -36,5 +36,3 @@ resource "azurerm_network_security_rule" "outbound" {
   resource_group_name         = var.resource_group_name
   network_security_group_name = azurerm_network_security_group.main.name
 }
-
-
