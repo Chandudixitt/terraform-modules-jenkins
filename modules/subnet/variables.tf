@@ -17,4 +17,3 @@ variable "subnet_address_prefix" {
   description = "The address prefix of the subnet"
   type        = string
 }
-
