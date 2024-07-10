@@ -4,4 +4,3 @@ resource "azurerm_subnet" "main" {
   virtual_network_name = var.virtual_network_name
   address_prefixes     = [var.subnet_address_prefix]
 }
-
