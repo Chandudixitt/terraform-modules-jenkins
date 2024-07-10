@@ -6,7 +6,7 @@ terraform {
     key                   = "terraform.tfstate"
     use_msi               = true
     client_id             = "59a6d3a3-4d0c-46d1-84a9-de714a8b6345"
-    access_key            = "7gB6H7F0+74mP5vaaIVXIxR55oHbPu/mEzBvi4mjCZyS2VqH766J/V03DMGj7e1Ts+VtwsfbtcNe+AStgWrkfQ=="
+    access_key            = "01Q/P2w0K6P0r0awRCWC1n/ObdMxSYv5zybtABloB/5pVOJ4k38IiVAzZCv+pxAbTptlZZDe0wkL+AStsmp8+A=="
   }
 }
 
@@ -94,4 +94,3 @@ output "tls_private_key" {
   value     = tls_private_key.example.private_key_pem
   sensitive = true
 }
-
