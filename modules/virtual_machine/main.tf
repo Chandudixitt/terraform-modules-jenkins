@@ -4,7 +4,6 @@ resource "azurerm_linux_virtual_machine" "main" {
   resource_group_name   = var.resource_group_name
   network_interface_ids = [var.network_interface_id]
   size                  = var.vm_size
-  }
 
   os_disk {
     name              = var.os_disk_name
@@ -25,4 +24,6 @@ resource "azurerm_linux_virtual_machine" "main" {
     username   = var.admin_username
     public_key = var.admin_ssh_key
   }
+
+  tags = var.tags
 }
