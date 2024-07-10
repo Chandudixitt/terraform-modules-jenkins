@@ -5,6 +5,3 @@ resource "azurerm_virtual_network" "main" {
   resource_group_name = var.resource_group_name
   tags                = var.tags
 }
-
-~
-
