@@ -6,7 +6,7 @@ terraform {
     key                   = "terraform.tfstate"
     use_msi               = true
     client_id             = "59a6d3a3-4d0c-46d1-84a9-de714a8b6345"
-    access_key            = "01Q/P2w0K6P0r0awRCWC1n/ObdMxSYv5zybtABloB/5pVOJ4k38IiVAzZCv+pxAbTptlZZDe0wkL+AStsmp8+A=="
+    access_key            = "Mu6QA+4rXpuRk0tt+zAbk/XMbmowCGcz9sS/JVpBdrjrTCVWgO/eBQvgIwGqd7Ju/Dc8GfoCxr3z+AStfrehyw=="
   }
 }
 
