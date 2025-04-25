@@ -18,7 +18,7 @@ pipeline {
         stage('Azure CLI Login') {
             steps {
                 script {
-                    sh 'az login --identity --username 59a6d3a3-4d0c-46d1-84a9-de714a8b6345'
+                    sh 'az login --identity --username xxxxxxxxxxxxxxxxxxxxxxxxxxx'
                 }
             }
         }
