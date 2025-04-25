@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AZURE_SUBSCRIPTION_ID = '8137c2f4-3363-4a3b-93f6-c6acd62fbd52'
+        AZURE_SUBSCRIPTION_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         STORAGE_ACCOUNT_NAME  = 'demostatesa1234'
         CONTAINER_NAME        = 'terraform-state-cont'
         TFSTATE_KEY           = 'terraform.tfstate'
